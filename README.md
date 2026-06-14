@@ -62,6 +62,12 @@ Accepts a CSV file and returns cleaned and processed data.
 1. Go to `/docs`
 2. Upload dataset
 3. Receive processed output (JSON)
+4. Run locally:
+
+uvicorn app:app --reload
+
+Then open:
+http://127.0.0.1:8000/docs
 
 ---
 
